@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.cover {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(./photo_site_img/photo_site_img/background.png);
+  height: 100vh;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+}
+.logo {
+  width: 100px;
+  margin-left: 150px;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-links ul {
+  margin-right: 70px;
+}
+
+.nav-links ul li {
+  display: inline-block;
+  margin: 50px;
+}
+
+.nav-links ul li :hover {
+  color: crimson;
+}
+.nav-links ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+.cover h1 {
+  color: #fff;
+  font-size: 60px;
+  margin-left: 100px;
+  margin-bottom: 20px;
+}
+.content {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+.searchBox {
+  padding: 10px;
+  background: #fff;
+  display: flex;
+  width: fit-content;
+  align-items: center;
+  margin: 20px;
+  border-radius: 100px;
+}
+
+.searchBox input {
+  outline: none;
+  border: 0;
+  width: 900px;
+  margin-left: 40px;
+}
+#upload {
+  border-radius: 50px;
+  background-color: crimson;
+  padding: 10px 50px;
+  transition: transform 0.5s;
+}
+#upload :hover {
+  transform: scale(0.9);
+}
+.searchIcon {
+  width: 50px;
+}
+
+.content p {
+  color: #fff;
+  margin-left: 90px;
+}
+.content a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 15px;
+}
+
+.content a:hover {
+  color: crimson;
+}

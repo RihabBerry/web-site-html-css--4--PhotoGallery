@@ -73,7 +73,7 @@ nav {
   border-radius: 50px;
   background-color: crimson;
   padding: 10px 50px;
-  transition: transform 0.5s;
+  transition: transform 1s;
 }
 #upload :hover {
   transform: scale(0.9);
@@ -94,4 +94,32 @@ nav {
 
 .content a:hover {
   color: crimson;
+}
+.gallery {
+  padding: 10%;
+}
+.gallery h2 {
+  font-size: 25px;
+  font-weight: 600;
+  margin: 20px 12px;
+}
+.masonary {
+  display: flex;
+  flex-flow: column wrap;
+  max-height: 1800px;
+  margin: auto;
+  width: 100%;
+}
+.m-bloc {
+  width: 33.333%;
+  padding: 12px;
+  box-sizing: border-box;
+}
+.m-bloc img {
+  width: 100%;
+  cursor: pointer;
+  transition: transform 1s;
+}
+.m-bloc img:hover {
+  transform: scale(1.05);
 }

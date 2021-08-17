@@ -123,3 +123,69 @@ nav {
 .m-bloc img:hover {
   transform: scale(1.05);
 }
+.exploreMore a {
+  display: block;
+  background-color: crimson;
+  text-decoration: none;
+  width: 50%;
+  max-width: 350px;
+  color: white;
+  padding: 12px 0px;
+  text-align: center;
+  border-radius: 30px;
+  margin: 60px auto;
+  transition: transform 1s;
+}
+.exploreMore a :hover {
+  transform: scale(1.05);
+}
+.exploreMore h2 {
+  color: gray;
+  margin: 60 auto;
+  font-weight: 500;
+  font-size: 30px;
+  text-align: center;
+}
+.pictures {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.pictures-col {
+  flex-basis: 25%;
+  text-align: center;
+}
+.pictures-col img {
+  width: 90%;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.pictures-col img:hover {
+  transform: translateY(-10px);
+}
+.customers {
+  padding-left: 10%;
+  padding-right: 10%;
+  box-sizing: border-box;
+  margin: 80px 0;
+}
+.About {
+  padding-left: 10%;
+  padding-right: 10%;
+  box-sizing: border-box;
+  margin: 120px 0;
+}
+.About p {
+  color: gray;
+  line-height: 25px;
+}
+.copyright p {
+  align-items: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ebebeb;
+  color: gray;
+  font-size: 17px;
+  height: 80px;
+}

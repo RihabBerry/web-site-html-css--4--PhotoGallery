@@ -180,12 +180,11 @@ nav {
   line-height: 25px;
 }
 .copyright p {
-  align-items: center;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  position: relative;
+  bottom: 0;
+  text-align: center;
   background-color: #ebebeb;
   color: gray;
   font-size: 17px;
-  height: 80px;
+  padding: 25px;
 }
